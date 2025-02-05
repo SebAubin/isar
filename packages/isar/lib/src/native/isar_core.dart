@@ -204,6 +204,8 @@ extension on Abi {
       case Abi.macosArm64:
       case Abi.macosX64:
         return 'libisar.dylib';
+      case Abi.linuxArm:
+      case Abi.linuxArm64:
       case Abi.linuxX64:
         return 'libisar.so';
       case Abi.windowsArm64:
